@@ -27,11 +27,11 @@ The model is trained on the **IQ-OTHNCCD Lung Cancer Dataset**.
 
 ---
 
-## 🚀 Features  
-- ✅ VGG16-based **deep learning model**  
-- ✅ **Grad-CAM visualization** for interpretability  
-- ✅ **Flask web app** for user interaction  
-- ✅ **Personalized recommendations** with predictions  
+##  Features Include
+- VGG16-based **deep learning model**  
+- **Grad-CAM visualization** for interpretability  
+- **Flask web app** for user interaction  
+- **Personalized recommendations** with predictions  
 
 ---
 
@@ -51,7 +51,7 @@ The model is trained on the **IQ-OTHNCCD Lung Cancer Dataset**.
   Your browser does not support the video tag.
 </video>
 
-*(Place your `demo.mp4` in the repo root along with README.md for GitHub to render it.)*  
+
 
 ---
 
