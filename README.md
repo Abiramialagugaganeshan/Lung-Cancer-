@@ -33,15 +33,6 @@ The model is trained on the **IQ-OTHNCCD Lung Cancer Dataset**.
 3. Grad-CAM generates a **heatmap overlay**  
 4. User sees the **prediction + medical recommendation**  
 
-## 📽️ Demo Video  
-
-<video width="600" controls>
-  <source src="https://github.com/Abiramialagugaganeshan/Lung-Cancer-/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-  [▶️ Click here to watch full demo video](./demo.mp4)
-</video>
-
-
 ## ⚙️ Installation & Usage  
 
 ### Clone the repository  
