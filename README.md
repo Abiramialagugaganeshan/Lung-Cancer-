@@ -27,7 +27,7 @@ The model is trained on the **IQ-OTHNCCD Lung Cancer Dataset**.
 
 ---
 
-##  Features Include
+##  Features 
 - VGG16-based **deep learning model**  
 - **Grad-CAM visualization** for interpretability  
 - **Flask web app** for user interaction  
