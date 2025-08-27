@@ -1,51 +1,63 @@
-# Lung-Cancer-Prediction
-🫁 Lung Cancer Prediction with Grad-CAM
+# 🫁 Lung Cancer Prediction with Grad-CAM  
 
-This project focuses on early detection of lung cancer using deep learning and explainable AI techniques. A Flask-based web application allows users to upload CT scan images, predict whether the scan shows Benign, Malignant, or Normal conditions, and visualize the results with Grad-CAM heatmaps for interpretability.
+This project is designed to detect **lung cancer from CT scan images** using **deep learning** and provide **visual explanations** through **Grad-CAM**. A simple **Flask-based web application** allows users to upload CT scan images, get predictions (Benign, Malignant, or Normal), and visualize the decision-making process with heatmaps.  
 
-📂 Dataset
+---
 
-The model is trained on the IQ-OTHNCCD Lung Cancer Dataset
-.
+## 📂 Dataset  
+The model is trained on the **IQ-OTHNCCD Lung Cancer Dataset**.  
 
-Classes: Benign, Malignant, Normal
+- **Classes**:  
+  - Benign  
+  - Malignant  
+  - Normal  
 
-Preprocessing:
+- **Preprocessing Steps**:  
+  - Images resized to `224x224`  
+  - Normalization of pixel values between `0–1`   
 
-Images resized to 224x224
+---
 
-Normalized pixel values between 0–1
+## 🔄 Workflow  
+1. **Data Preprocessing** – Image resizing, normalization, dataset splitting  
+2. **Model Development** – VGG16 fine-tuning with custom classification layers  
+3. **Training & Evaluation** – Metrics: Accuracy, Precision, Recall, F1-score  
+4. **Explainability** – Grad-CAM heatmaps highlight critical regions  
+5. **Deployment** – Flask app for real-time predictions and visualizations  
 
-Data split into 80% training and 20% testing
+---
 
-🔄 Workflow
+## 🚀 Features  
+- ✅ VGG16-based **deep learning model**  
+- ✅ **Grad-CAM visualization** for interpretability  
+- ✅ **Flask web app** for user interaction  
+- ✅ **Personalized recommendations** with predictions  
 
-Data Preprocessing – Resize, normalize, and split dataset
+---
 
-Model Development – Fine-tuned VGG16 with custom layers
+## 🖥️ Application Workflow  
+1. Upload a CT scan image via the web app  
+2. System preprocesses and predicts the scan category  
+3. Grad-CAM generates a **heatmap overlay**  
+4. User sees the **prediction + medical recommendation**  
 
-Training & Evaluation – Accuracy, Precision, Recall, F1-score used as metrics
+---
+---
 
-Explainability – Applied Grad-CAM to highlight important regions in CT scans
+## 📽️ Demo Video  
 
-Deployment – Flask app for predictions & heatmap visualization
+<video width="600" controls>
+  <source src="demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-🚀 Features
+*(Place your `demo.mp4` in the repo root along with README.md for GitHub to render it.)*  
 
-✅ Deep Learning Model (VGG16-based) – Accurate classification
+---
 
-✅ Grad-CAM Integration – Visual interpretability for model decisions
+## ⚙️ Installation & Usage  
 
-✅ Flask Web App – Upload CT scans & view predictions instantly
-
-✅ Personalized Recommendations – Actionable medical guidance for each prediction
-
-🖥️ Application Workflow
-
-Upload a lung CT scan image
-
-The system preprocesses and predicts the condition
-
-Grad-CAM generates a heatmap overlay on the scan
-
-The app displays the prediction + recommendation
+### Clone the repository  
+```bash
+git clone https://github.com/Abiramialaguganeshan/lung-cancer-.git
+cd lung-cancer-
