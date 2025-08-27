@@ -47,7 +47,7 @@ The model is trained on the **IQ-OTHNCCD Lung Cancer Dataset**.
 ## 📽️ Demo Video  
 
 <video width="600" controls>
-  <source src="demo.mp4" type="video/mp4">
+  <source src="https://github.com/Abiramialagugaganeshan/Lung-Cancer-/blob/ab4ff6199aff4badb6fe78710060fd69dcbaa580/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
